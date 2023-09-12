@@ -25,44 +25,73 @@ Must satisfy CIA requirements, and ACID db requirement, the service should NOT r
 Project required Technologies/frameworks:
 
 ---- Backend ----
+
 @node
+
 @express
+
 @https
+
 @ws/wss
 
 ---- Database ----
+
 @mongodb
 
+
 ---- Frontend ----
+
 @vanilla javascript
+
 @typescript
+
 @react
 
+
 ---- Style ----
+
 @tailwindcss
+
 @sass
+
 @scss
 
 
+
 ---- Markup ----
+
 @html
+
 @xml
+
 
 ******** contact mode ********
 @email
+
 private: ...
+
 public: 
+
        support@asoplax.com
+       
        admin@asoplax.com
+       
        bug@asoplax.com
+       
 
 
 ******** Server *********
+
 @software: Nginx(free mode)
+
 @proxy: true
+
 @reverse proxy: true
+
 @load balancer: true
+
 @proxy port: 9876
+
 
 
 ******** Attribution ********
