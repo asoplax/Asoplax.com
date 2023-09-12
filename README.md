@@ -27,41 +27,29 @@ Project required Technologies/frameworks:
 ---- Backend ----
 
 @node
-
 @express
-
 @https
-
 @ws/wss
 
 ---- Database ----
-
 @mongodb
 
 
 ---- Frontend ----
-
 @vanilla javascript
-
 @typescript
-
 @react
 
 
 ---- Style ----
-
 @tailwindcss
-
 @sass
-
 @scss
 
 
 
 ---- Markup ----
-
 @html
-
 @xml
 
 
