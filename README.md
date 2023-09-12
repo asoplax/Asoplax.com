@@ -1,5 +1,5 @@
 # Asoplax.com
-Official asoplax.com v1.0 project blueprint.
+Official asoplax.com v0.0.1 alpha pre-release project blueprint.
 
 This is an open source project aiming to the public unlimited, unrestricted free service and no data collection for later third party software.
 Must satisfy CIA requirements, and ACID db requirement, the service should NOT rely on account creation in order to use the service, user account creation should only serve the unique purpose of more in depth configuration on the site, but user should be able to enter and interact with "all" website features except for those where account is really required.
