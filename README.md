@@ -1,12 +1,11 @@
 # Asoplax.com
 Official asoplax.com v0.0.1 alpha pre-release project blueprint.
-Keep away from "dependency hell" :(
-I like staying chill rather then wasting my time trying to debug something dependend on something detached!
+Stay away from "dependency hell" :(
 
 
-This is an open source project aiming to the public unlimited, unrestricted free service and no data collection for later third party software.
-Must satisfy CIA requirements, and ACID db requirement, the service should NOT rely on account creation in order to use the service, user account creation should only serve the unique purpose of more in depth configuration on the site, but user should be able to enter and interact with "all" website features except for those where account is really required.
-
+This is an open-source project aiming to the public unlimited, unrestricted free service and no data collection for later third-party software.
+Must satisfy CIA requirements and ACID db requirements, the service should NOT rely on account creation in order to use the service, user account creation should only serve the unique purpose of more in-depth configuration on the site, but the user should be able to enter and interact with "all" website features except for those where account is really required.
+Garbage collection must be integrated, and executed at a dynamic frequency synchronous with the thread state and *Asynchronous* within the top-node dispatcher, with an expected call frequency varying from [1h-24h], must also have public access to the central model properties and attributes, with ONLY [read] privilege, if mutation of a single component is expected or required a single reverse-lock is executed within its model, a one-time get-and-set cycle, and state variable reset to initial state. 
 
 
 ************************
@@ -15,17 +14,17 @@ Must satisfy CIA requirements, and ACID db requirement, the service should NOT r
 
 ********* Project stage table:*******
 
-@stage 1: primary, initial stages, development and alpha deployment.
+@stage 1: primary, initial stages, development, and alpha deployment.
 
 
-@stage 2: delta factorization, social ac's are added to the org, and final code factorization.
+@stage 2: delta factorization, socials ACs are added to the org, and final code factorization.
 
 
-@stage 3: ios app development and publishment.
+@stage 3: iOS app development and publishment.
 
 /******************************/
 
-Project required Technologies/frameworks:
+The project required Technologies/frameworks:
 
 ---- Backend ----
 
