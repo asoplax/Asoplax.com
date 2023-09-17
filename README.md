@@ -3,7 +3,7 @@ Official asoplax.com v0.0.1 alpha pre-release project blueprint.
 Stay away from "dependency hell" :(
 
 
-This is an open-source project aiming to the public unlimited, unrestricted free service and no data collection for later third-party software.
+This is an open-source project aiming to the public, unlimited, unrestricted free service and no data collection for later third-party software.
 Must satisfy CIA requirements and ACID db requirements, the service should NOT rely on account creation in order to use the service, user account creation should only serve the unique purpose of more in-depth configuration on the site, but the user should be able to enter and interact with "all" website features except for those where account is really required.
 Garbage collection must be integrated, and executed at a dynamic frequency synchronous with the thread state and *Asynchronous* within the top-node dispatcher, with an expected call frequency varying from [1h-24h], must also have public access to the central model properties and attributes, with ONLY [read] privilege, if mutation of a single component is expected or required a single reverse-lock is executed within its model, a one-time get-and-set cycle, and state variable reset to initial state. 
 
